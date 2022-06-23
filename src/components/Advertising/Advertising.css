@@ -1,0 +1,131 @@
+.hr {
+    width: 90px;
+    height: 2px;
+    border: none;
+    text-align: center;
+}
+
+.Item1 {
+    padding: 0px;
+    border-radius: 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.shopify.com/s/files/1/0026/0400/7539/files/banner-pets-07_360x.png?v=1617529362.png);
+}
+
+.Item1:hover {
+    opacity: 0.6;
+}
+
+.Item1:hover .hr {
+    width: 45px;
+}
+
+.Item1 .ItemDiv1 {
+    width: 50%;
+    padding: 5%;
+    display: grid;
+    font-size: 16px;
+    padding-top: 20%;
+    margin-right: 30%;
+    text-align: center;
+    padding-bottom: 43%;
+}
+
+.Item2 {
+    padding: 0px;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.shopify.com/s/files/1/0026/0400/7539/files/banner-pets-09_360x.png?v=1617529361.png);
+}
+
+.Item2 .ItemDiv2 {
+    width: 60%;
+    padding: 5%;
+    display: grid;
+    margin-right: 40%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.Item3 {
+    padding: 0px;
+    border-radius: 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.shopify.com/s/files/1/0026/0400/7539/files/banner-pets-08_360x.png?v=1617529362.png);
+}
+
+.Item3 .ItemDiv3 {
+    width: 60%;
+    padding: 5%;
+    display: grid;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    margin-right: 30%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.Item4 {
+    padding: 0px;
+    border-radius: 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.shopify.com/s/files/1/0026/0400/7539/files/banner-pets-10_360x.png?v=1617529361.png);
+}
+
+.Item4 .ItemDiv4 {
+    width: 90%;
+    padding: 10%;
+    display: grid;
+    text-align: end;
+    margin-left: 10%;
+    padding-top: 20%;
+    padding-bottom: 44%;
+    box-sizing: border-box;
+}
+
+.Item1:hover, .Item2:hover, .Item3:hover, .Item4:hover{
+    opacity: 0.6;
+}
+
+.Item2:hover .hr {
+    width: 45px;
+}
+
+.Text1{
+    font-size: calc(16.2px + 2vw);
+    font-weight: 700;
+}
+
+.Text2{
+    font-size: calc(10px + 1.3vw);
+    font-weight: 600;
+}
+
+.Text3{
+    font-size: calc(8px + 1vw);
+    font-weight: 600;
+}
+
+.Text4{
+    font-size: calc(2px + 3px + 1vw);
+    font-weight: 600;
+}
+
+.Text5{
+    font-size: calc(2px + 2px + 1vw);
+    font-weight: 600;
+}
+
+@media screen and (min-width: 425px) {
+    .ItemDiv1 {}
+    .ItemDiv2 {}
+    .ItemDiv3 {}
+    .ItemDiv4 {}
+  }
