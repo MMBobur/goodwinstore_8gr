@@ -1,5 +1,7 @@
 import React from 'react'
-import Navbar from "./../../components/navbar"
+
+import Navbar from "./../../components/navbar";
+import Banner from "./../../components/banner";
 import Latest from '../../components/latest'
 import Recomended from './../../components/recomended'
 import Advertising from './../../components/Advertising'
@@ -10,6 +12,7 @@ function Home() {
   return (
     <div>
       <Navbar/>
+      <Banner/>
       <Latest/>
       <Recomended/>
       <Advertising />
