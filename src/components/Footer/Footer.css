@@ -1,0 +1,89 @@
+th {
+    color: black;
+    font-weight: 900;
+    text-align: start;
+    padding-bottom: 5px;
+}
+
+tr {
+    cursor: pointer;
+    line-height: 25px;
+}
+
+tr:hover {
+    color: #9AC3E3;
+}
+
+.Div{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    background-color: #C6DEEF;
+}
+
+.Div3{
+    width: 20%;
+    display: contents;
+}
+
+.Item1{
+    padding: 20px;
+    text-align: end;
+    font-weight: 900;
+    color: #4B5B7C;
+    background: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .Item1 {
+        text-align: center;
+    }
+}
+
+
+.Div3 .hr{
+    width: 83px;
+    height: 3px;
+    border: none;
+    margin-left: 1%;
+    background-color: #8DA3B2;
+}
+
+.Div3 .hr:hover{
+    width: 40px;
+    margin-left: 28px;
+    text-align: center;
+    text-size-adjust: inherit;
+}
+
+.INP{
+    width: 100%;
+    border: none;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .Div1 {
+        display: none;
+    }
+}
+
+.Accordion{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .Accordion {
+        margin-top: 40px;
+        display: contents;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .GridImage1 {
+        display: none;
+    }
+}
