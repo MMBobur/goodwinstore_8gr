@@ -7,3 +7,6 @@
 .V:hover{
     border: 2px solid red;
 }
+.U:hover{
+    color: red;
+}

@@ -7,7 +7,8 @@ th {
 
 tr {
     cursor: pointer;
-    line-height: 25px;
+    line-height: 30px;
+    font-size: 12px;
 }
 
 tr:hover {
@@ -25,6 +26,7 @@ tr:hover {
 
 .Div3{
     width: 20%;
+    cursor: pointer;
     display: contents;
 }
 

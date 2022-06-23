@@ -6,6 +6,7 @@
 }
 
 .Item1 {
+    height: 100%;
     padding: 0px;
     border-radius: 0px;
     background-size: 100%;
@@ -13,29 +14,26 @@
     background-image: url(https://cdn.shopify.com/s/files/1/0026/0400/7539/files/banner-pets-07_360x.png?v=1617529362.png);
 }
 
-.Item1:hover {
-    opacity: 0.6;
-}
-
 .Item1:hover .hr {
     width: 45px;
 }
 
 .Item1 .ItemDiv1 {
-    width: 50%;
+    width: 60%;
     padding: 5%;
     display: grid;
     font-size: 16px;
     padding-top: 20%;
     margin-right: 30%;
     text-align: center;
-    padding-bottom: 43%;
+    padding-bottom: 40%;
 }
 
 .Item2 {
+    height: 46%;
     padding: 0px;
     border-radius: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     background-size: 100%;
     background-repeat: no-repeat;
     background-image: url(https://cdn.shopify.com/s/files/1/0026/0400/7539/files/banner-pets-09_360x.png?v=1617529361.png);
@@ -45,14 +43,15 @@
     width: 60%;
     padding: 5%;
     display: grid;
+    padding-top: 8%;
     margin-right: 40%;
-    padding-top: 7%;
-    padding-bottom: 7%;
+    padding-bottom: 8%;
     text-align: center;
     box-sizing: border-box;
 }
 
 .Item3 {
+    height: 47%;
     padding: 0px;
     border-radius: 0px;
     background-size: 100%;
@@ -65,17 +64,19 @@
     padding: 5%;
     display: grid;
     padding-top: 7%;
-    padding-bottom: 7%;
     margin-right: 30%;
+    padding-bottom: 7%;
     text-align: center;
     box-sizing: border-box;
 }
 
 .Item4 {
     padding: 0px;
+    height: 100%;
     border-radius: 0px;
     background-size: 100%;
     background-repeat: no-repeat;
+    background-position: center center;
     background-image: url(https://cdn.shopify.com/s/files/1/0026/0400/7539/files/banner-pets-10_360x.png?v=1617529361.png);
 }
 
@@ -85,8 +86,8 @@
     display: grid;
     text-align: end;
     margin-left: 10%;
-    padding-top: 20%;
-    padding-bottom: 44%;
+    padding-top: 22%;
+    padding-bottom: 45%;
     box-sizing: border-box;
 }
 

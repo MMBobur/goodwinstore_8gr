@@ -50,7 +50,7 @@ const Footer = () => {
             </div>
             <Container>
                 <div className='Div1'>
-                    <Grid container spacing={0} >
+                    <Grid container spacing={0}  style={{marginTop: '3%', marginBottom: '10%'}}>
                         <Grid item sm={4} md={4} lg={2.2}>
                             <Item>
                                 <th>CATEGORIES</th>
