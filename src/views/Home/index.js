@@ -13,10 +13,10 @@ function Home() {
     <div>
       <Navbar/>
       <Banner/>
-      <Latest/>
+      <Category/>
       <Recomended/>
       <Advertising />
-      <Category/>
+      <Latest/>
       <Footer />
     </div>
   )

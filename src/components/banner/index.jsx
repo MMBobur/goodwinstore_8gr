@@ -42,7 +42,7 @@ const Item = styled(Typography)(({ theme }) => ({
 
 export default function App() {
   return (
-    <Box>
+    <Box style={{marginTop: '10%'}}>
       <Swiper slidesPerView={1}
         spaceBetween={30}
         loop={true}
@@ -56,13 +56,13 @@ export default function App() {
 
         <SwiperSlide>
         <div className='sahifa1'>
-          <Container maxWidth='md'className="con">
-            <Typography sx={{mt:'13%',mb:'14%',width:'50%'}}>
-              <Typography sx={{typography:{xs:'h5',sm:'h4',md:'h3',lg:'h2'}}} 
+          <Container maxWidth='lg'className="con">
+            <Typography sx={{mt:'13%',mb:'18%',width:'50%'}}>
+              <Typography sx={{typography:{xs:'h5',sm:'h3',md:'h2',lg:'h1'}}} 
               className='typver'>
                 EVRIYTHING
                 </Typography>
-              <Typography sx={{typography:{xs:'h5',sm:'h4',md:'h3',lg:'h2'}, color:'#E5B775FF'}} className='typver'>
+              <Typography sx={{typography:{xs:'h5',sm:'h3',md:'h2',lg:'h1'}, color:'#E5B775FF'}} className='typver'>
                 YOU NEED
                 </Typography>
               <Typography sx={{mt:'2%',mb:'3%',display:{sm:'flex', xs:'none'} }} className='typver'>
@@ -80,12 +80,12 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide>
         <div className='sahifa2'>
-        <Container maxWidth='md'className="con">
-          <Typography sx={{mt:'13%',mb:'14%'}}>
-              <Typography sx={{typography:{xs:'h5',sm:'h4',md:'h3',lg:'h2'},display:'flex'}} className='typver'>
+        <Container maxWidth='lg'className="con">
+          <Typography sx={{mt:'13%',mb:'18%'}}>
+              <Typography sx={{typography:{xs:'h5',sm:'h3',md:'h2',lg:'h1'},display:'flex'}} className='typver'>
                 Save up
-                 <Typography  sx={{typography:{xs:'h6',sm:'h5',md:'h4',lg:'h3'}}}>to</Typography></Typography>
-              <Typography sx={{fontWeight:'900',color:'#9AC3E1FF',display:'flex',typography:{xs:'h5',sm:'h4',md:'h3',lg:'h2'}}} 
+                 <Typography  sx={{typography:{xs:'h5',sm:'h4',md:'h3',lg:'h2'}}}>to</Typography></Typography>
+              <Typography sx={{fontWeight:'900',color:'#9AC3E1FF',display:'flex',typography:{xs:'h5',sm:'h3',md:'h2',lg:'h1'}}} 
               className='typver'>40% 
               <Typography sx={{ml:'10px',color:'black',typography:{xs:'h5',sm:'h4',md:'h4',lg:'h3'}}} className='typver'>
                 of money</Typography></Typography>

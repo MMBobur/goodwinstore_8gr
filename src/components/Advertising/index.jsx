@@ -12,11 +12,12 @@ const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
   backgroundColor: 'transparent',
   color: theme.palette.text.secondary,
+  borderRadius: 'none',
 }));
 
 const Advertising = () => {
   return (
-    <Container style={{marginTop: '30px', marginBottom: '30px'}}>
+    <Container style={{marginTop: '6%', marginBottom: '6%'}}>
       <Grid container spacing={2} >
         <Grid item xs={12} sm={4} md={4} lg={4}>
           <Item className='Item1'>
@@ -50,7 +51,7 @@ const Advertising = () => {
         <Grid item xs={12} sm={4} md={4} lg={4}>
           <Item className='Item4'>
             <div className='ItemDiv4'>
-              <span className='Text4'>SPECIAL OFFER</span>
+              <span className='Text4' style={{}}>SPECIAL OFFER</span>
               <span className='Text1'>GET AN</span>
               <span className='Text2' style={{color: '#FEB557'}}>EXTRA 10%</span>
               <span className='Text4'>OF YOUR ORDER</span>
